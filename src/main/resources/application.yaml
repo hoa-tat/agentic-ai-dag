@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: agentic-ai-dag
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/agent_memory
+#    username: postgres
+#    password: postgres
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+#    vectorstore:
+#      pgvector:
+#        initialize-schema: true
+
+server:
+  port: 9292
+
+logging:
+  level:
+    root: info
